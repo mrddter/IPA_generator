@@ -5,11 +5,11 @@ This program utilizes the Carnegie-Mellon University Phonetic Dictionary Databas
 This program runs in any Python command line. 
 
 a sample: 
-    English Text to IPA Converter
 
-   [English]: Hello World!
-   multiple entries found: 
-   [IPA]: [hɛloʊ wərld]
-   [IPA]: [həloʊ wərld]
+    English Text to IPA Converter
+    [English]: Hello World!
+    multiple entries found: 
+    [IPA]: [hɛloʊ wərld]
+    [IPA]: [həloʊ wərld]
 
 I am currently working on this program, fixing bugs, and adding some customizability to the output. 
