@@ -44,7 +44,7 @@ def getIPA_CMU(userInput):
                 
                 #multiple pronunciations of w2
             if w == string:
-                print('here')          
+                pass      
     aslist = IPA_CMUT.split()
     if mult_num:
         print('multiple entries found: ')
