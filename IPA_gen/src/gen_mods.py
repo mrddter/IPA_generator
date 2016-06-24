@@ -2,7 +2,8 @@ import re
 
 file_object = open("CMU_phonetic_dictionary.txt", 'r+')  
 
-words = []; element = []
+words = []
+element = []
 
 def getIPA_CMU(userInput):
     IPA_CMUT = ""; ele_num = 0; mult_num = []
@@ -93,7 +94,6 @@ def get_IPA(IPA_CMU):
 
 def get_final(IPA_CMU):
     final_IPA = '[IPA]: [' + get_IPA(IPA_CMU) + ']'
-<<<<<<< HEAD
     return final_IPA;
 
 def get_finalRAW(IPA_CMU):
@@ -103,6 +103,3 @@ def get_finalRAW(IPA_CMU):
 def get_finalPrint(IPA_CMU):
     final_IPA = '[IPA]: [' + get_IPA(IPA_CMU) + ']'
     print(final_IPA)
-=======
-    print(final_IPA)
->>>>>>> 28226cd59d8b19cf1fcb6c8edc69a268405531ac
