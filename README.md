@@ -1,6 +1,9 @@
 # IPA Generator (Python) 
 Transcription of English Text into IPA
 
+# EDIT: [Better version here](https://github.com/mphilli/English_to_IPA)
+
+
 This program utilizes the Carnegie-Mellon University Phonetic Dictionary Database to convert English words into IPA. 
 This program was created using PyDev (a Python plugin for the Eclipse IDE). 
 
